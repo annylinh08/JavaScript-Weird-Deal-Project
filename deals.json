@@ -11,7 +11,7 @@
         "relaxing",
         "warm bath full of au jus"
       ],
-      "image": "images/roast-beef.jpg",
+      "image": ".../images/roast-beef.jpg",
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": 43.485410,
@@ -28,7 +28,7 @@
         "cool",
         "convenience"
       ],
-      "image": "images/tiny-home.jpg",
+      "image": ".../images/tiny-home.jpg",
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": 44.335655,
@@ -45,7 +45,7 @@
         "cheap",
         "fun"
       ],
-      "image": "images/ladybugs",
+      "image": ".../images/ladybugs",
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": 44.413152,
@@ -62,7 +62,7 @@
         "home grow",
         "healthy food for everyone"
       ],
-      "image": "images/mushroom.jpg",
+      "image": ".../images/mushroom.jpg",
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": 44.332424,
@@ -78,7 +78,7 @@
         "Cute",
         "Make you laugh"
       ],
-      "image": "images/cat.jpg",
+      "image": ".../images/cat.jpg",
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": 44.400564,

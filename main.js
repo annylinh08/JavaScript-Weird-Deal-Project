@@ -5,7 +5,7 @@ let header = document.querySelector('header');
 let section = document.querySelector('section');
 
 //Step Two - create a variable to store request URL
-let requestURL = "https://annylinh08.github.io/JavaScript-Weird-Deal-Project/deals.json";
+let requestURL = "https://annylinh08.github.io/JavaScript-Weird-Deal-Project/mydeals.json";
 
 // Step Three - create a new XHR object
 let request = new XMLHttpRequest();
@@ -27,7 +27,7 @@ request.onload = function() {
   let weirdDeals = request.response;
   console.log(weirdDeals);
   populateHeader(weirdDeals);
-  topFlavours(weirdDeals);
+  products(weirdDeals);
 }
 
 // Step Eight - set up populateHeader function to fill in the header function
@@ -63,7 +63,7 @@ function products(jsonObj) {
     let list = document.createElement('ul');
 
     //grab the data associated with image to set the src and alt attribute
-    img.setAttribute('src', 'https://annylinh08.github.io/JavaScript-Weird-Deal-Project/images/' + topFlavours[i].image);
+    img.setAttribute('src', 'https://annylinh08.github.io/JavaScript-Weird-Deal-Project/images/' + products[i].image);
     img.setAttribute('alt', products[i].image );
 
     h2.textContent = products[i].name;
@@ -73,7 +73,7 @@ function products(jsonObj) {
     let features = products[i].features;
     for(let j = 0; j < features.length; j++ ) {
       let listItem = document.createElement('li');
-      listItem.textContent = ingredients[j];
+      listItem.textContent = features[j];
       list.appendChild(listItem);
     }
 
